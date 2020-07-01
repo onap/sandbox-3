@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "74aa6e82_c001996d",
+        "filename": "rules.pl",
+        "patchSetId": 1
+      },
+      "lineNbr": 57,
+      "author": {
+        "id": 3833
+      },
+      "writtenOn": "2020-07-01T23:44:42Z",
+      "side": 1,
+      "message": "Looks like a typo here. Should be `jenkins_user`, and I\u0027m not sure if there is a difference between \u0027iuser\u0027 and \u0027user\u0027.",
+      "revId": "d5ee8b44cdd89c517eaa0b80dfb9b9a6ab3208ff",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    }
+  ]
+}
