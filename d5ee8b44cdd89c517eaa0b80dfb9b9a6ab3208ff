@@ -16,6 +16,24 @@
       "revId": "d5ee8b44cdd89c517eaa0b80dfb9b9a6ab3208ff",
       "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "66caced7_1f8288a6",
+        "filename": "rules.pl",
+        "patchSetId": 1
+      },
+      "lineNbr": 57,
+      "author": {
+        "id": 4677
+      },
+      "writtenOn": "2020-07-02T00:49:45Z",
+      "side": 1,
+      "message": "Thanks. Defintiely a typo",
+      "parentUuid": "74aa6e82_c001996d",
+      "revId": "d5ee8b44cdd89c517eaa0b80dfb9b9a6ab3208ff",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": false
     }
   ]
 }
