@@ -84,6 +84,53 @@
     },
     {
       "key": {
+        "uuid": "94783287_9f791146",
+        "filename": "rules.pl",
+        "patchSetId": 4
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2020-07-16T05:05:13Z",
+      "side": 1,
+      "message": "It just seems to be redundant. Especially since we\u0027re already doing this. We can actually rip out our custom rule. There\u0027s a config option now for a built in NACR equivalent!",
+      "parentUuid": "6a979c75_c378c401",
+      "range": {
+        "startLine": 14,
+        "startChar": 0,
+        "endLine": 34,
+        "endChar": 27
+      },
+      "revId": "9e5753149f1321f5bb0f099acdf93aeb5f729dad",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "5dd6d1d7_dd28569b",
+        "filename": "rules.pl",
+        "patchSetId": 4
+      },
+      "lineNbr": 52,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2020-07-16T05:05:13Z",
+      "side": 1,
+      "message": "Each word should be capitalized as that is the standard label style in Gerrit. So this should be: INFO-File-Not-Alone",
+      "range": {
+        "startLine": 52,
+        "startChar": 22,
+        "endLine": 52,
+        "endChar": 36
+      },
+      "revId": "9e5753149f1321f5bb0f099acdf93aeb5f729dad",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "108b716f_2b05f03c",
         "filename": "rules.pl",
         "patchSetId": 4
@@ -124,6 +171,99 @@
         "startChar": 0,
         "endLine": 63,
         "endChar": 49
+      },
+      "revId": "9e5753149f1321f5bb0f099acdf93aeb5f729dad",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "6dbbc9b2_01beb0e9",
+        "filename": "rules.pl",
+        "patchSetId": 4
+      },
+      "lineNbr": 63,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2020-07-16T05:05:13Z",
+      "side": 1,
+      "message": "I\u0027m talking username lookup. It\u0027s impossible for them to have the same username as one of our accounts as it\u0027s an account which we own ;)\n\nSo lookup the username of all of our various jobbuilder accounts and just add them all in here. That way we can have just a single master rule that we roll out to all the Gerrit systems and if we add another Gerrit system we update the rule everywhere.",
+      "parentUuid": "8fa5c133_0336ade9",
+      "range": {
+        "startLine": 61,
+        "startChar": 0,
+        "endLine": 63,
+        "endChar": 49
+      },
+      "revId": "9e5753149f1321f5bb0f099acdf93aeb5f729dad",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "db95b658_501217e3",
+        "filename": "rules.pl",
+        "patchSetId": 4
+      },
+      "lineNbr": 84,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2020-07-16T05:05:13Z",
+      "side": 1,
+      "message": "This should be Verified-By-Jenkins per the Gerrit standard label convention",
+      "range": {
+        "startLine": 84,
+        "startChar": 17,
+        "endLine": 84,
+        "endChar": 36
+      },
+      "revId": "9e5753149f1321f5bb0f099acdf93aeb5f729dad",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "9e3fb861_d2d13560",
+        "filename": "rules.pl",
+        "patchSetId": 4
+      },
+      "lineNbr": 97,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2020-07-16T05:05:13Z",
+      "side": 1,
+      "message": "This should be Verified-By-Jenkins per the Gerrit standard label convention",
+      "range": {
+        "startLine": 97,
+        "startChar": 17,
+        "endLine": 97,
+        "endChar": 36
+      },
+      "revId": "9e5753149f1321f5bb0f099acdf93aeb5f729dad",
+      "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "2af837f1_14d24b93",
+        "filename": "rules.pl",
+        "patchSetId": 4
+      },
+      "lineNbr": 105,
+      "author": {
+        "id": 1
+      },
+      "writtenOn": "2020-07-16T05:05:13Z",
+      "side": 1,
+      "message": "This should be Verified-By-Jenkins per the Gerrit standard label convention",
+      "range": {
+        "startLine": 105,
+        "startChar": 17,
+        "endLine": 105,
+        "endChar": 36
       },
       "revId": "9e5753149f1321f5bb0f099acdf93aeb5f729dad",
       "serverId": "14b4e41f-c4e3-4fb9-9955-6a9b5656895a",
